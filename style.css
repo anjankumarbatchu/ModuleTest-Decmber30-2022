@@ -1,0 +1,160 @@
+body{
+    box-sizing: border-box;
+    /* top: 0;
+    left: 0;
+    right: 0;   not usable*/
+    margin: 0;
+    padding: 0;
+}
+
+header{
+ border-bottom: 1px solid white;
+ background-color: #000;
+}
+
+.Logo{
+    font-weight: bold;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.container-flow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-button{
+    border: none;
+    background-color: inherit;
+}
+
+#home-btn, #About-Us-btn , #Our-Services-btn,#Contact-Us-btn{
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+}
+
+/* ---------------big-heading-data-image-arrow-area ----------*/
+#big-heading-data-image-arrow-area{
+    padding-top: 15%;
+    background-color: #000;
+}
+
+.big-heading-data-image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.big-heading-data > h1{
+    color: #fff;
+    font-size: 50;
+    font-weight: bolder;
+}
+
+.down-arrow{
+    text-align: center;
+    
+}
+
+#down-arrow{
+    color: #fff;
+}
+
+
+/* -----------------AboutUs section ----------- */
+
+.AboutUs-container{
+    display: flex;
+    justify-content: center;
+}
+
+.AboutUs-image{
+    margin: 35px;
+}
+
+.AboutUs-content-data{
+    margin: 25px;
+}
+
+
+    /* ------------------our services ------------- */
+
+#ourServices-heading{
+    margin: 25px;
+}
+
+.OurServices-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    overflow-x: auto;
+}
+
+.card{
+    margin: 1%;
+    border-radius: 0;
+    border: 1px solid black;
+    display: inline-block;
+    width:40%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.card-heading{
+    margin: 10%;
+    
+}
+
+/* relatives measure units : %,vw,vh,rem,em; */
+
+
+#card-content-data{
+    margin: 10%;
+    text-align: justify;
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+
+
+
+  /* ---------------contact-us-section------------------ */
+
+.Contact-Us {
+    margin-top: 10px;
+    background-color: #000;
+    text-align: left;
+    padding: 0.75rem 3rem;
+}
+
+.Contact-Us .contact-us-heading{
+    margin-top: 25px;
+    text-align: center;
+    color: #fff;
+}
+
+::placeholder{
+    color: #fff;
+}
+
+.input-items{
+    width: 100%;
+    text-align: left;
+    background-color: #000;
+    margin: 10px 0;
+    color: #fff;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.sumbit-btn{
+    padding: 5px 50px;
+    font-size: small;
+    align-content: flex-start;
+}
